@@ -28,7 +28,7 @@ As a coding challenge, we were tasked with creating a professional portfolio app
 
 ## Deployed App  
 
-[React Portfolio Site Deployed to Heroku]()  
+[React Portfolio Site Deployed to Heroku](https://sleepy-bastion-10709.herokuapp.com/)  
 
 ---    
 
