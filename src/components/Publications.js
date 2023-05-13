@@ -1,13 +1,14 @@
 import React from "react";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 
 const Publications = () => {
   return (
     <section className="bg-secondary px-5 text-white py-32" id="publications">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between"></div>
-      <div className="mb-6 pb-5 md:pb-0">
-        <h2 className="text-4xl font-bold mb-6 divide-y border-b-[5px] w-[180px] border-indigo-600 pb-2">
-          Publications
+      <div className="section-wrap">
+      <div className="section">
+        <h2 className="text-4xl font-bold mb-6 divide-y border-b-[5px] w-[260px] border-[#00FFCA] pb-2">
+          Publications <a href="/#top" className="rts-btn"><BsFillArrowUpCircleFill size={25} /></a>
         </h2>
       </div>
 
@@ -25,6 +26,7 @@ const Publications = () => {
           <div class="subheading mb-3">Medium | May 29, 2018</div>
         <h2 class="mb-0"><a href="https://ejseader.medium.com/life-after-america-provides-modern-lessons-in-resistance-from-the-past-55730a6a999" target="_blank" without rel="noreferrer">'Life After America' Provides Modern Lessons in Resistance From the Past</a></h2>
           <div class="subheading mb-3">Medium | January 22, 2018</div>
+      </div>
       </div>
     </section>
   )

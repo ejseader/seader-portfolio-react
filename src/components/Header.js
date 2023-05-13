@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose, AiOutlineArrowUp } from "react-icons/ai";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -7,9 +7,9 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-white">
-      <a href="/" className="logo text-2xl font-bold">
-        Eric J. <span className="text-accent">Seader</span>
+    <header className="flex justify-between px-5 py-2 bg-primary text-white fuxed w-full z-10" id="top">
+      <a href="/" className="logo text-2xl font-bold bouncy">
+      <span className="text-accent">E</span>ric <span className="text-accent">J</span> <span id="s" className="text-accent">S</span>eader
       </a>
 
       {/* Desktop Nav */}
@@ -28,7 +28,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume -link" target="_blank" without rel="noreferrer">
+            <a href="./assets/SeaderEric_Resume2023.pdf" download>
               Resume
             </a>
           </li>
@@ -36,15 +36,11 @@ const Header = () => {
       </nav>
 
       {/* Mobile Nav */}
-      <nav
-        className={
-        !toggle 
-          ? "mobile-nav left-[-100%]"
-          : "mobile-nav left-0"
-        }
-        
-      >
+      <nav className={!toggle ? "mobile-nav right-[-100%]" : "mobile-nav right-0"}>
         <ul className="flex flex-col">
+        <li>
+            <a href="/#top">Back to Top<AiOutlineArrowUp className={"menu-arrow"} size={22}/></a>
+          </li>
           <li>
             <a href="/#about">About</a>
           </li>
@@ -58,7 +54,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="/#resume">Resume</a>
+            <a href="./assets/SeaderEric_Resume2023.pdf" download>Resume</a>
           </li>
         </ul>
       </nav>
