@@ -17,8 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "install": "npm install"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +40,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
-    "react-router-dom": "^6.11.1",
     "tailwindcss": "^3.3.2"
   }
 }
