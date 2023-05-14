@@ -39,7 +39,7 @@ const Hero = () => {
 
         <a
             href="/#portfolio"
-            className=" btn bg-accent  border-2 border-[#05BFDB] text-white px-6 py-3 hover:bg-transparent">View Portfolio</a>
+            className=" btn bg-accent border-2 border-[#05BFDB] text-[#0A4D68] px-6 py-3 portfolio-btn">View Portfolio</a>
       </div>
 
       <div className="hero-img">

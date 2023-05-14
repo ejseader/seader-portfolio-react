@@ -1,5 +1,4 @@
 import React from "react";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 
 const Publications = () => {
@@ -8,7 +7,7 @@ const Publications = () => {
       <div className="section-wrap">
       <div className="section">
         <h2 className="text-4xl font-bold mb-6 divide-y border-b-[5px] w-[260px] border-[#00FFCA] pb-2">
-          Publications <a href="/#top" className="rts-btn"><BsFillArrowUpCircleFill size={25} /></a>
+          Publications 
         </h2>
       </div>
 

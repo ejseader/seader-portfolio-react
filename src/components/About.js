@@ -1,6 +1,5 @@
 import React from "react";
 import AboutImg from "../assets/about-img.png";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 
 const About = () => {
@@ -9,7 +8,7 @@ const About = () => {
       <div className="section-wrap">
       <div className="section">
         <h2 className="text-4xl font-bold mb-6 divide-y border-b-[5px] w-[260px] border-[#00FFCA] pb-2">
-          About Me <a href="/#top" className="rts-btn"><BsFillArrowUpCircleFill size={25} /></a>
+          About Me
         </h2>
 
         <p className="pb-5">I am a customer-facing technical account management and customer success specliaist with proficiencies in SaaS pre/post-sales, implementation, onboarding, support, value-add services, customer success, and web/app development.</p>

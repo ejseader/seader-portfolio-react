@@ -94,6 +94,10 @@ h1 {
   padding-bottom: 0;
 }
 
+.portfolio-btn:hover {
+  @apply bg-transparent text-white;
+}
+
 /* About */
 
 /* .about-wrap {
