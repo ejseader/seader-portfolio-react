@@ -12,7 +12,7 @@ const Hero = () => {
           A Full-Stack Web Developer.
         </h1>
 
-        <div className="sm:flex py-5">
+        <div className="sm:flex py-5 max-w-[800px]">
             <a
               href="https://twitter.com/EricSeaderTR" target="_blank" without rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-white"
@@ -34,11 +34,13 @@ const Hero = () => {
               {" "}
               <AiOutlineLinkedin size={40} />{" "}
             </a>
+            
           </div>
 
-        <a
-            href="/#portfolio"
-            className=" btn bg-accent border-2 border-[#05BFDB] text-[#0A4D68] px-6 py-3 portfolio-btn">View Portfolio</a>
+          <a
+            href="/#portfolio">
+            <button className=" btn bg-accent border-2 border-[#05BFDB] text-[#0A4D68] px-6 py-3 portfolio-btn">View Portfolio</button></a>
+        
       </div>
 
       {/* <div className="hero-img">

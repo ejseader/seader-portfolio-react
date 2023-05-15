@@ -29,7 +29,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="./assets/SeaderEric_Resume2023.pdf">
+            <a href="./assets/SeaderEric_Resume2023.pdf" target="_blank" without rel="noreferrer">
               Resume
             </a>
           </li>

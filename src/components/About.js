@@ -11,7 +11,7 @@ const About = () => {
           About Me
         </h2>
 
-        <p className="pb-5">I am a customer-facing technical account management and customer success specliaist with proficiencies in SaaS pre/post-sales, implementation, onboarding, support, value-add services, customer success, and web/app development.</p>
+        <p className="pb-5">I am a customer-facing technical account management and customer success specialist with proficiencies in SaaS pre/post-sales, implementation, onboarding, support, value-add services, customer success, and web/app development.</p>
         </div>
 
         <div className="about-img">
