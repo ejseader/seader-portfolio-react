@@ -28,6 +28,11 @@ html {
 }
 
 /* Global Classes */
+li {
+  @apply px-4;
+  @apply cursor-pointer;
+}
+
 .section-wrap {
   @apply container mx-auto grid md:grid-cols-2 items-center md:justify-between;
 }
@@ -46,7 +51,7 @@ html {
 
 /* Nav */
 header a:hover {
-  @apply animate-[pulse_1s_infinite];
+  @apply text-gray-200;
 }
 
 #s {
@@ -72,6 +77,10 @@ nav li a:hover {
 
 .menu-arrow {
   @apply pl-1 inline-block text-white;
+}
+
+.socials a:hover {
+  @apply text-white;
 }
 
 /* Hero */

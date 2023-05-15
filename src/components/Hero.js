@@ -5,15 +5,14 @@ import { AiOutlineTwitter, AiOutlineGithub, AiOutlineLinkedin } from "react-icon
 
 const Hero = () => {
   return (
-    <section className="bg-primary px-5 text-white py-32 hero-wrap-wrap">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between hero-wrap">
-      <div className="hero-info pb-5 md:pb-0">
+    <section className="w-full h-screen bg-primary text-white hero-wrap-wrap">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <h1 className="text-4xl lg:text-6xl">
           Hi, I'm <span className='text-accent'>E</span>ric.<br />
-          Full-Stack Web Developer.
+          A Full-Stack Web Developer.
         </h1>
 
-        <div className="py-5">
+        <div className="sm:flex py-5">
             <a
               href="https://twitter.com/EricSeaderTR" target="_blank" without rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-white"
@@ -42,10 +41,9 @@ const Hero = () => {
             className=" btn bg-accent border-2 border-[#05BFDB] text-[#0A4D68] px-6 py-3 portfolio-btn">View Portfolio</a>
       </div>
 
-      <div className="hero-img">
+      {/* <div className="hero-img">
         <img src={HeroImg} alt="Man coding at PC" className="lgw-[80%] ml-auto" />
-      </div>
-      </div>
+      </div> */}
     </section>
   )
 };
