@@ -29,7 +29,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="./assets/SeaderEric_Resume2023.pdf" target="_blank" without rel="noreferrer">
+            <a href="./assets/SeaderResume2023.pdf" target="_blank" without rel="noreferrer">
               Resume
             </a>
           </li>
@@ -55,7 +55,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li className='py-6 text-4xl'>
-            <a href="./assets/SeaderEric_Resume2023.pdf" download>Resume</a>
+            <a href="./assets/SeaderResume2023.pdf" target="_blank" without rel="noreferrer">Resume</a>
           </li>
         </ul>
 
