@@ -3,7 +3,7 @@ import React from "react";
 
 const Publications = () => {
   return (
-    <section className="bg-secondary px-5 text-white py-32" id="publications">
+    <section className="bg-primary px-5 text-white py-32" id="publications">
       <div className="section-wrap">
       <div className="section">
         <h2 className="text-4xl font-bold mb-6 divide-y border-b-[5px] w-[260px] border-[#00FFCA] pb-2">

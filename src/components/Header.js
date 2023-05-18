@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {AiOutlineTwitter} from "react-icons/ai";
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
+import {Link} from "react-scroll";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -17,15 +18,34 @@ const Header = () => {
       {/* Desktop Nav */}
         <ul className="hidden md:flex py-8 pr-6">
           <li>
-            <a href="/#about">About</a>
+          <Link to="home" smooth={true} duration={500}>
+          Home
+        </Link>
           </li>
           <li>
-            <a href="/#portfolio">Portfolio</a>
+          <Link to="about" smooth={true} duration={500}>
+          About
+        </Link>
           </li>
           <li>
-            <a href="/#publications">Publications</a>
+          <Link to="skills" smooth={true} duration={500}>
+          Skills
+        </Link>
           </li>
           <li>
+          <Link to="portfolio" smooth={true} duration={500}>
+          Portfolio
+        </Link>
+          </li>
+          <li>
+          <Link to="publications" smooth={true} duration={500}>
+          Publications
+        </Link>
+          </li>
+          <li>
+          <Link to="contact" smooth={true} duration={500}>
+          Contact
+        </Link>
             <a href="/#contact">Contact</a>
           </li>
           <li>
@@ -41,21 +61,39 @@ const Header = () => {
       </div>
 
       {/* Mobile Nav */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#09455d] text-white flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl'>
-            <a href="/#about">About</a>
+        <ul className={!nav ? 'hidden' : 'mobile-nav'}>
+        <li className='py-6 text-4xl'>
+        <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          Home
+        </Link>
           </li>
           <li className='py-6 text-4xl'>
-            <a href="/#portfolio">Portfolio</a>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          About
+        </Link>
           </li>
           <li className='py-6 text-4xl'>
-            <a href="/#publications">Publications</a>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          Skills
+        </Link>
           </li>
           <li className='py-6 text-4xl'>
-            <a href="/#contact">Contact</a>
+          <Link onClick={handleClick} to="portfolio" smooth={true} duration={500}>
+          Portfolio
+        </Link>
           </li>
           <li className='py-6 text-4xl'>
-            <a href="./assets/SeaderResume2023.pdf" target="_blank" without rel="noreferrer">Resume</a>
+          <Link onClick={handleClick} to="publications" smooth={true} duration={500}>
+          Publications
+        </Link>
+          </li>
+          <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          Contact
+        </Link>
+          </li>
+          <li className='py-6 text-4xl'>
+            <a onClick={handleClick} href="./assets/SeaderResume2023.pdf" target="_blank" without rel="noreferrer">Resume</a>
           </li>
         </ul>
 

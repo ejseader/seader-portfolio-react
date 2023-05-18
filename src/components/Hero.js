@@ -5,7 +5,7 @@ import { AiOutlineTwitter, AiOutlineGithub, AiOutlineLinkedin } from "react-icon
 
 const Hero = () => {
   return (
-    <section className="w-full h-screen bg-primary text-white hero-wrap-wrap">
+    <section className="w-full h-screen bg-primary text-white hero-wrap-wrap" name="home">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <h1 className="text-4xl lg:text-6xl">
           Hi, I'm <span className='text-accent'>E</span>ric.<br />

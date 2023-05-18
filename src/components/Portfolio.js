@@ -35,7 +35,7 @@ const Portfolio = () => {
     {
       img: Project4,
       title: "E-Commerce Backend",
-      desc: "Backend e-commerce API accessible by using an API client.", 
+      desc: "Backend e-commerce API accessible by using an API client.",
       tools: "<Node.js | Express | MySQL2 | Sequelize | Dotenv>",
       live: "https://github.com/ejseader/e-commerce-backend#installation",
       code: "https://github.com/ejseader/e-commerce-backend",
@@ -58,14 +58,13 @@ const Portfolio = () => {
     },
   ];
 
-    return (
-      <section className="bg-primary px-5 text-white py-32" id="portfolio">
-        <div className="portfolio-wrap">
-          <div className="section">
-            <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[260px] border-[#00FFCA] pb-2">
-              Portfolio
-            </h2>
-          </div>
+  return (
+    <section className="bg-secondary px-5 text-white py-32" id="portfolio">
+      <div className="portfolio-wrap">
+        <div className="section">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[260px] border-[#00FFCA] pb-2">
+            Portfolio
+          </h2>
 
 
           <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
@@ -73,11 +72,11 @@ const Portfolio = () => {
               return (
                 <div className="relative" key={i}>
                   <p className="text-center font-bold px-2 text-white">
-                      {project.title}
-                    </p>
+                    {project.title}
+                  </p>
                   <img src={project.img} alt={project.title} />
                   <div className="flex absolute left-0 right-0 top-[33px] bottom-0 mx-auto w-[85%] h-[85%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
-                    
+
                     <p className="pt-2 pb-4 text-center px-2 text-white">
                       {project.desc}<br />{project.tools}
                     </p>
@@ -103,9 +102,10 @@ const Portfolio = () => {
 
           </div>
         </div>
-      </section>
-    );
-  };
+      </div>
+    </section>
+  );
+};
 
 
-  export default Portfolio;
+export default Portfolio;
