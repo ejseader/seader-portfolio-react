@@ -46,7 +46,6 @@ const Header = () => {
           <Link to="contact" smooth={true} duration={500}>
           Contact
         </Link>
-            <a href="/#contact">Contact</a>
           </li>
           <li>
             <a href="./assets/SeaderResume2023.pdf" target="_blank" without rel="noreferrer">
