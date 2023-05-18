@@ -12,7 +12,7 @@ import Mongo from '../assets/mongo.png';
 const Skills = () => {
   return (
     <section className="bg-primary px-5 text-white py-32" id="skills">
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-7xl mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl font-bold mb-6 divide-y border-b-[5px] w-[260px] border-[#00FFCA] pb-2'>Skills</p>
           </div>
