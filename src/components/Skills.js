@@ -23,31 +23,31 @@ const Skills = () => {
                   <p className='my-4'>HTML</p>
               </div>
               <div className='bg-secondary shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#05BFDB] duration-500 pt-4'>
-                  <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
                   <p className='my-4'>CSS</p>
               </div>
               <div className='bg-secondary shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#05BFDB] duration-500 pt-4'>
-                  <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={JavaScript} alt="Javascript icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='bg-secondary shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#05BFDB] duration-500 pt-4'>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
                   <p className='my-4'>REACT</p>
               </div>
               <div className='bg-secondary shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#05BFDB] duration-500 pt-4'>
-                  <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='bg-secondary shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#05BFDB] duration-500 pt-4'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Node} alt="NodeJS icon" />
                   <p className='my-4'>NODE JS</p>
               </div>
               <div className='bg-secondary shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#05BFDB] duration-500 pt-4'>
-                  <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Mongo} alt="MongoDB icon" />
                   <p className='my-4'>MONGO DB</p>
               </div>
               <div className='bg-secondary shadow-md shadow-[#040c16] hover:scale-110 hover:shadow-[#05BFDB] duration-500 pt-4'>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind CSS icon" />
                   <p className='my-4'>TAILWIND</p>
               </div>
           </div>
