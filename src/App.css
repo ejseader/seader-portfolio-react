@@ -66,7 +66,7 @@ nav li a {
   @apply px-4 py-5 text-lg;
 }
 
-nav li a:hover {
+.mobile-nav-links:hover {
   color: #00FFCA;
 }
 
@@ -119,30 +119,40 @@ h1 {
 }
 
 /* Portfolio */
-
-.projects img {
-  width: 100%;
-}
-
-.port-img img {
-  width: 100%;
-}
-
 .portfolio-wrap {
-  @apply container mx-auto grid items-center md:justify-between;
+  @apply max-w-7xl mx-auto p-4 flex flex-col justify-center w-full h-full;
 }
+ 
+.projects {
+  @apply grid sm:grid-cols-2 md:grid-cols-3 gap-4;
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(rgba(3.1, 51.4, 58.4, 1), rgba(3.9,30.2,40.8,1));
+}
+
+
+/* container mx-auto grid items-center md:justify-between; */
 
 /* Publications */
 
 .pub-links a {
   font-size: 1.3rem;
+  color: #ffffff;
 }
 .pub-links a:hover {
-  @apply text-gray-900
+  @apply bg-secondary
 }
 
 .subheading {
-  @apply text-gray-300;
+  @apply text-gray-900 font-semibold;
   justify-content: end;
 }
 

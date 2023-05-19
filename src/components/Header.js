@@ -61,38 +61,38 @@ const Header = () => {
 
       {/* Mobile Nav */}
         <ul className={!nav ? 'hidden' : 'mobile-nav'}>
-        <li className='py-6 text-4xl'>
-        <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+        <li className='py-4 text-2xl'>
+        <Link className="mobile-nav-links" onClick={handleClick} to="home" smooth={true} duration={500}>
           Home
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <li className='py-4 text-2xl'>
+          <Link className="mobile-nav-links" onClick={handleClick} to="about" smooth={true} duration={500}>
           About
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <li className='py-4 text-2xl'>
+          <Link className="mobile-nav-links" onClick={handleClick} to="skills" smooth={true} duration={500}>
           Skills
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="portfolio" smooth={true} duration={500}>
+          <li className='py-4 text-2xl'>
+          <Link className="mobile-nav-links" onClick={handleClick} to="portfolio" smooth={true} duration={500}>
           Portfolio
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="publications" smooth={true} duration={500}>
+          <li className='py-4 text-2xl'>
+          <Link className="mobile-nav-links" onClick={handleClick} to="publications" smooth={true} duration={500}>
           Publications
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <li className='py-4 text-2xl'>
+          <Link className="mobile-nav-links" onClick={handleClick} to="contact" smooth={true} duration={500}>
           Contact
         </Link>
           </li>
-          <li className='py-6 text-4xl'>
-            <a onClick={handleClick} href="./assets/SeaderResume2023.pdf" target="_blank" without rel="noreferrer">Resume</a>
+          <li className='py-4 text-2xl'>
+            <a className="mobile-nav-links" onClick={handleClick} href="./assets/SeaderResume2023.pdf" target="_blank" without rel="noreferrer">Resume</a>
           </li>
         </ul>
 
