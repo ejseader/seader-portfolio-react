@@ -5,9 +5,18 @@ import Project3 from "../assets/proj3.png";
 import Project4 from "../assets/proj4.png";
 import Project5 from "../assets/proj5.png";
 import Project6 from "../assets/proj6.gif";
+import Project7 from "../assets/proj7.png";
 
 const Portfolio = () => {
   const projects = [
+    {
+      img: Project7,
+      title: "SlideOffTheEarth App [NodeJS, React, Tailwind, MongoDB]",
+      desc: "Admin/User app for Slide Off The Earth music fesitival.",
+      tools: "<Node.js | React | Tailwind | MongoDB>",
+      live: "https://warm-inlet-30953.herokuapp.com/",
+      code: "https://github.com/AuTangen/Slide_Off_The_Earth",
+    },
     {
       img: Project1,
       title: "Drnkz App [NodeJS, React, Tailwind]",
@@ -17,12 +26,12 @@ const Portfolio = () => {
       code: "https://github.com/ejseader/drnkz-app",
     },
     {
-      img: Project2,
-      title: "PWA Text Editor [NodeJS, Express, JavaScript]",
-      desc: "Progressive Web App that accepts/persists text whether in the browser or installing the app.",
-      tools: "<Node.js | Express | JavaScript>",
-      live: "https://hidden-tundra-78494.herokuapp.com/",
-      code: "https://github.com/ejseader/pwa-text-editor",
+      img: Project6,
+      title: "Note Taker App [NodeJS, Express]",
+      desc: "A web app for generating, saving, and deleting notes.",
+      tools: "<Node.js | Express | Generate-Unique-Id>",
+      live: "https://nameless-stream-37257.herokuapp.com/",
+      code: "https://github.com/ejseader/note-taker",
     },
     {
       img: Project3,
@@ -33,14 +42,6 @@ const Portfolio = () => {
       code: "https://github.com/ejseader/social-network-api",
     },
     {
-      img: Project4,
-      title: "E-Commerce Backend [NodeJS, Express, MySQL]",
-      desc: "Backend e-commerce API accessible by using an API client.",
-      tools: "<Node.js | Express | MySQL2 | Sequelize | Dotenv>",
-      live: "https://github.com/ejseader/e-commerce-backend#installation",
-      code: "https://github.com/ejseader/e-commerce-backend",
-    },
-    {
       img: Project5,
       title: "Employee Tracker Terminal App [NodeJS, Express, MySQL]",
       desc: "Backend employee tracker API accessible using an API client.",
@@ -49,13 +50,13 @@ const Portfolio = () => {
       code: "https://github.com/ejseader/employee-tracker",
     },
     {
-      img: Project6,
-      title: "Note Taker App [NodeJS, Express]",
-      desc: "A web app for generating, saving, and deleting notes.",
-      tools: "<Node.js | Express | Generate-Unique-Id>",
-      live: "https://nameless-stream-37257.herokuapp.com/",
-      code: "https://github.com/ejseader/note-taker",
-    },
+      img: Project2,
+      title: "PWA Text Editor [NodeJS, Express, JavaScript]",
+      desc: "Progressive Web App that accepts/persists text whether in the browser or installing the app.",
+      tools: "<Node.js | Express | JavaScript>",
+      live: "https://hidden-tundra-78494.herokuapp.com/",
+      code: "https://github.com/ejseader/pwa-text-editor",
+    }
   ];
 
   return (
