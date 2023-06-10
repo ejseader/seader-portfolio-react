@@ -10,7 +10,7 @@ const Portfolio = () => {
   const projects = [
     {
       img: Project7,
-      title: "SlideOffTheEarth App \n[MERN Stack | Tailwind]",
+      title: "SlideOffTheEarth App\n[MERN Stack | Tailwind]",
       desc: "Admin/User app for Slide Off The Earth music fesitival.",
       tools: "<MERN Stack | Tailwind>",
       live: "https://slideofftheearth.com/",
@@ -18,7 +18,7 @@ const Portfolio = () => {
     },
     {
       img: Project1,
-      title: "Drnkz App [MERN Stack]",
+      title: "Drnkz App\n[MERN Stack]",
       desc: "An app to share/find the perfect cocktail.",
       tools: "<MERN Stack>",
       live: "https://peaceful-shelf-63083.herokuapp.com/",
@@ -26,7 +26,7 @@ const Portfolio = () => {
     },
     {
       img: Project6,
-      title: "Note Taker App [MERN Stack]",
+      title: "Note Taker App\n[MERN Stack]",
       desc: "A web app for generating, saving, and deleting notes.",
       tools: "<MERN Stack",
       live: "https://nameless-stream-37257.herokuapp.com/",
@@ -34,7 +34,7 @@ const Portfolio = () => {
     },
     {
       img: Project3,
-      title: "Social Media API [MERN Stack, Day.js, Insomnia]",
+      title: "Social Media API\n[MERN Stack | Day.js | Insomnia]",
       desc: "Backend social network API where user data can be accessed using an API client.",
       tools: "<MERN Stack, Day.js, Insomnia>",
       live: "https://github.com/ejseader/social-network-api#installation-and-usage",
@@ -42,7 +42,7 @@ const Portfolio = () => {
     },
     {
       img: Project5,
-      title: "Employee Tracker Terminal App [NodeJS, Express, MySQL]",
+      title: "Employee Tracker Terminal App\n[NodeJS | Express | MySQL]",
       desc: "Backend employee tracker API accessible using an API client.",
       tools: "<Node.js | Express | MySQL2 | Sequelize | Dotenv>",
       live: "https://github.com/ejseader/employee-tracker/tree/main#installation-and-usage",
@@ -50,7 +50,7 @@ const Portfolio = () => {
     },
     {
       img: Project2,
-      title: "PWA Text Editor [NodeJS, Express, JavaScript]",
+      title: "PWA Text Editor\n[NodeJS | Express | JavaScript]", 
       desc: "Progressive Web App that accepts/persists text whether in the browser or installing the app.",
       tools: "<Node.js | Express | JavaScript>",
       live: "https://hidden-tundra-78494.herokuapp.com/",
@@ -77,7 +77,7 @@ const Portfolio = () => {
                   flex flex-col justify-center text-center items-center mx-auto content-div"
                 >
                   <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl p-1 text-center font-bold text-white bg-[#0A4D68] rounded-lg">{project.title}
+                    <span className="text-2xl p-1 text-center font-bold text-white bg-[#0A4D68] rounded-lg whitespace-pre-wrap leading-10">{project.title}
                     </span>
                   </div> 
                     <div className="pt-8 text-center opacity-0 group-hover:opacity-100">
