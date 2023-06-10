@@ -2,7 +2,6 @@ import React from "react";
 import Project1 from "../assets/proj1.png";
 import Project2 from "../assets/proj2.png";
 import Project3 from "../assets/proj3.png";
-import Project4 from "../assets/proj4.png";
 import Project5 from "../assets/proj5.png";
 import Project6 from "../assets/proj6.gif";
 import Project7 from "../assets/proj7.png";
@@ -11,7 +10,7 @@ const Portfolio = () => {
   const projects = [
     {
       img: Project7,
-      title: "SlideOffTheEarth App [NodeJS, React, Tailwind, MongoDB]",
+      title: "SlideOffTheEarth App \n[MERN Stack | Tailwind]",
       desc: "Admin/User app for Slide Off The Earth music fesitival.",
       tools: "<MERN Stack | Tailwind>",
       live: "https://slideofftheearth.com/",

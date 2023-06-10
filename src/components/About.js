@@ -11,7 +11,7 @@ const About = () => {
           About Me
         </h2>
 
-        <p className="pb-5">I am a customer-facing technical account management and customer success specialist with proficiencies in SaaS pre/post-sales, implementation, onboarding, support, value-add services, customer success, and web/app development.</p>
+        <p className="pb-5">Eric is a front end web developer leveraging a background in SaaS pre/post-sales support and implementation to bring unique insight into how end-users interact with websites and platforms. He recently earned a certificate in Full Stack Web Development from the Rutgers University Coding Boot Camp. Eric is a UI design enthusiast and a creative troubleshooter and problem-solver with a passion for taking projects from concept to production.</p>
         </div>
 
         <div className="about-img">
