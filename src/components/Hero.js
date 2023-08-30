@@ -13,13 +13,13 @@ const Hero = () => {
         </h1>
 
         <div className="sm:flex py-5 max-w-[800px]">
-            <a
+            {/* <a
               href="https://twitter.com/EricSeaderTR" target="_blank" without rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
               <AiOutlineTwitter size={40} />{" "}
-            </a>
+            </a> */}
             <a
               href="https://www.github.com/ejseader" target="_blank" without rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-white"

@@ -105,9 +105,6 @@ const Header = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
           <a className='flex justify-between items-center w-full text-white' href="https://github.com/ejseader" target="_blank" without rel="noreferrer">GitHub <FaGithub size={30} /></a>
           </li>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#26a7de]'>
-        <a className='flex justify-between items-center w-full text-white' href="https://twitter.com/ericseadertr" target="_blank" without rel="noreferrer">Twitter <AiOutlineTwitter size={30} /></a>
-        </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#05BFDB]'>
         <a className='flex justify-between items-center w-full text-white' href="mailto:eric@ericseader.com">Email <HiOutlineMail size={30} /></a>
         </li>
