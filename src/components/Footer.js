@@ -11,13 +11,6 @@ const Footer = () => {
       <nav className="block py-2">
         <ul className="flex">
           <li>
-            <a href="https://twitter.com/EricSeaderTR" target="_blank" without rel="noreferrer"
-              className="pr-4 inline-block text-accent hover:text-white"
-            >
-              {" "}
-              <AiOutlineTwitter size={30} />{" "}</a>
-          </li>
-          <li>
           <a
               href="https://www.github.com/ejseader" target="_blank" without rel="noreferrer"
               className="pr-4 inline-block text-accent hover:text-white"
